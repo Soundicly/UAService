@@ -1,0 +1,17 @@
+{
+  "name": "ua-service",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/ua-parser-js": "^0.7.39",
+    "express": "^4.18.2",
+    "ua-parser-js": "^1.0.37"
+  }
+}
